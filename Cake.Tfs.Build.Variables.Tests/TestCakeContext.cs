@@ -29,6 +29,8 @@ namespace Cake.Tfs.Build.Variables.Tests
         public IRegistry Registry => throw new NotImplementedException();
 
         public IToolLocator Tools => throw new NotImplementedException();
+
+        public ICakeDataResolver Data => throw new NotImplementedException();
     }
 
     public class TestArguments : ICakeArguments
